@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/parent_layout"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soekarno"
+                android:id="@+id/image_name"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Presiden Pertama RI"
+                android:id="@+id/image_title"
+                android:textColor="#000"
+                android:textSize="10sp"
+                android:paddingBottom="5dp"
+                />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Favourite"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:id="@+id/btn_favourite"-->
+                <!--/>-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Share"-->
+                <!--android:background="@color/colorAccent"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:id="@+id/btn_share"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+
+</LinearLayout>
